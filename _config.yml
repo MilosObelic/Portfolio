@@ -2,7 +2,7 @@ title: Felix Cenusa
 email: felixcenusa@gmail.com
 description: >- 
   A portfolio website showcasing my CV and projects.
-baseurl: "/portfolio" 
+baseurl: ""
 logo: /assets/img/me.png
 fakegpt: /assets/img/fakegptss.png
 eshop: /assets/img/eshopss.png
