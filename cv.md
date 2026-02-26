@@ -4,14 +4,14 @@ title: Curriculum Vitae
 permalink: /cv/
 ---
 # [Home](/portfolio) | [CV](/portfolio/cv/) | [Projects](/portfolio/projects/)
-![Logo](/assets/img/me.png){:height="200px" width="150px"}**Felix Cenusa's Portfolio**
+![Logo](/assets/img/me.png){:height="200px" width="150px"}**Stefan Crnobrnja's Portfolio**
 
 
 # Curriculum Vitae
 
 ## Introduction
 
-My name is Felix Cenusa and I like programming and data-driven stock analysis.
+My name is Stefan Crnobrnja and I like programming and data-driven stock analysis.
 
 ## Experience
 

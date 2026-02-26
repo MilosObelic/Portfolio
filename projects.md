@@ -5,21 +5,21 @@ permalink: /projects/
 ---
 # [Home](/portfolio) | [CV](/portfolio/cv/) | [Projects](/portfolio/projects/)
 ![Logo](/assets/img/me.png){:height="200px" width="150px"}
-**Felix Cenusa's Portfolio**
+**Stefan Crnobrnja's Portfolio**
 
 # Projects
 
 
 ## Advent of Code Solutions
 
-Developed comprehensive video tutorials and code solutions for each daily challenge in the [Advent of Code 2024](https://github.com/FelixCenusa/Advent-Of-Code-2024). This project demonstrates problem-solving skills and proficiency in various programming concepts.
+Developed comprehensive video tutorials and code solutions for each daily challenge in the [Advent of Code 2024](https://github.com/MilosObelic/Advent-Of-Code-2024). This project demonstrates problem-solving skills and proficiency in various programming concepts.
 
 - **Languages Used:** Python
 - **Features:**
   - Daily challenge solutions with detailed explanations
   - Video walkthroughs for all problems
   - Optimized and well-documented code
-- **GitHub Repository:** [Advent of Code 2024](https://github.com/FelixCenusa/Advent-Of-Code-2024)
+- **GitHub Repository:** [Advent of Code 2024](https://github.com/MilosObelic/Advent-Of-Code-2024)
 
 
 ## 8-Segment Display Controller (Assembly)
@@ -74,7 +74,7 @@ Self Hosted Web application that enables users to create, share, and manage digi
     - Many more security features visible at [https://felixcenusa.com/security](https://felixcenusa.com/security)
     - Admin controls
     - Uploads and downloads
-- [Link to the project (my github repo)](https://github.com/FelixCenusa/PiPullV3)
+- [Link to the project (my github repo)](https://github.com/MilosObelic/PiPullV3)
 -  ^ More description about the progject in the README file there ^
 
 
@@ -87,7 +87,7 @@ Self Hosted Web application that enables users to create, share, and manage digi
     - Mathematical rigor
     - Scalability
     - Debug printing
-- [Link to the project (my github repo)](https://github.com/FelixCenusa/Aristotles-Puzzle-Solver)
+- [Link to the project (my github repo)](https://github.com/MilosObelic/Aristotles-Puzzle-Solver)
 -  ^ More description about the progject in the README file there ^
 
 
@@ -98,27 +98,27 @@ School database system that stores information about a school (people and classe
     - Menu
     - Save to file
     - Load from file
-- [Link to the project (my github repo)](https://github.com/FelixCenusa/CPP-Projects/tree/main/Final-Course-Project)
+- [Link to the project (my github repo)](https://github.com/MilosObelic/CPP-Projects/tree/main/Final-Course-Project)
 -  ^ More description about the progject in the README file there ^
 
 ## Eshop (SQL, JS, HTML & CSS)
 ![eshop](/assets/img/eshopss.png){:height="400px" width= 600px"}
 Eshop made with SQL, JS, HTML and CSS.
 - Run index.js or cli.js with node to get a web version or a terminal version of the program.
-- [Link to the project (my github repo)](https://github.com/FelixCenusa/Database-Projects/tree/main/meDatabase/kmom06/eshop2)
+- [Link to the project (my github repo)](https://github.com/MilosObelic/Database-Projects/tree/main/meDatabase/kmom06/eshop2)
 
 ## FAKE-GPT (python)
 ![fakegpt](/assets/img/fakegptss.png){:height="400px" width= 600px"}
 
 I call it Fake-GPT since you can chat with it but it is not a real GPT :). The fourth version is the final version and the versions in between I did not include as they just add more features that Marvin4 already has.
-- [Link to the project (my github repo)](https://github.com/FelixCenusa/Python-Projects/tree/main/marvin4)
+- [Link to the project (my github repo)](https://github.com/MilosObelic/Python-Projects/tree/main/marvin4)
 - Run the main.py after cloning or downloading the repo to run the program.
 
 ## Press-Ice (python)
 ![pressice](/assets/img/pressicess.png){:height="400px" width= 600px"}
 This is a typing game I made called "Press-Ice" as you must be precise to get a good score. 
 It tells you how fast you typed, what mistakes you made and there are different difficulty options.
-- [Link to the project (my github repo)](https://github.com/FelixCenusa/Python-Projects/tree/main/typing)
+- [Link to the project (my github repo)](https://github.com/MilosObelic/Python-Projects/tree/main/typing)
 - [Link to a youtube video I made explaining the code and how the program works](https://www.youtube.com/watch?v=ALf3cHNM08g)
 - Run the main.py after cloning or downloading the repo to run the program.
 
