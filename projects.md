@@ -67,11 +67,11 @@ Self Hosted Web application that enables users to create, share, and manage digi
     - EJS
     - MySQL
     - A lot of packages :)
-    - More details here: [https://felixcenusa.com/architecture](https://felixcenusa.com/architecture)
+    - More details here: [https://stefancrnobrnja.com/architecture](https://stefancrnobrnja.com/architecture)
 - Features:
     - Login integration with Gmail
     - Robust password security
-    - Many more security features visible at [https://felixcenusa.com/security](https://felixcenusa.com/security)
+    - Many more security features visible at [https://stefancrnobrnja.com/security](https://stefancrnobrnja.com/security)
     - Admin controls
     - Uploads and downloads
 - [Link to the project (my github repo)](https://github.com/MilosObelic/PiPullV3)
