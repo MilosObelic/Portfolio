@@ -2,7 +2,7 @@ title: Stefan Crnobrnja
 email: stefanc004@gmail.com
 description: >- 
   A portfolio website showcasing my CV and projects/En portfolio-webbplats som visar mitt CV och projekt.
-baseurl: "portfolio"
+baseurl: ""
 logo: /assets/img/me.png
 fakegpt: /assets/img/fakegptss.png
 eshop: /assets/img/eshopss.png
