@@ -9,5 +9,5 @@ eshop: /assets/img/eshopss.png
 pressice: /assets/img/pressicess.png
 schoolmgmt: /assets/img/schoolmanagementss.png
 bthpin: /assets/img/BTHpin.png
-show_downloads: true
+show_downloads: false
 theme: jekyll-theme-cayman
