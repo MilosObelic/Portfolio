@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-# [Home](/portfolio) | [CV](/portfolio/cv/) | [Projects](/portfolio/projects/)
+# [Home]({{ "/" | relative_url }}) | [CV]({{ "/cv/" | relative_url }}) | [Projects]({{ "/projects/" | relative_url }})
 ![Logo](/assets/img/me.png){:height="200px" width="150px"}**Stefan Crnobrnja's Portfolio**
 
 
@@ -15,5 +15,5 @@ Hej, jag heter Stefan Crnobrnja och jag älskar lära mig och urtforska olika om
 - gmail: [stefancrnobrnja@gmail.com](mailto:stefancrnobrnja@gmail.com) <!-- This [LINK](Text) makes text clickable  -->
 
 
-# [Home](/portfolio) | [CV](/portfolio/cv/) | [Projects](/portfolio/projects/)
+# [Home]({{ "/" | relative_url }}) | [CV]({{ "/cv/" | relative_url }}) | [Projects]({{ "/projects/" | relative_url }})
 

@@ -3,7 +3,7 @@ layout: default
 title: Peronal projects
 permalink: /projects/
 ---
-# [Home](/portfolio) | [CV](/portfolio/cv/) | [Projects](/portfolio/projects/)
+# [Home]({{ "/" | relative_url }}) | [CV]({{ "/cv/" | relative_url }}) | [Projects]({{ "/projects/" | relative_url }})
 ![Logo](/assets/img/me.png){:height="200px" width="150px"}
 **Stefan Crnobrnja's Portfolio**
 
@@ -125,4 +125,4 @@ It tells you how fast you typed, what mistakes you made and there are different 
 ## TIS-100 (Assembly)
 Played and completed the entire TIS-100 game which based on the assembly language.
 
-# [Home](/portfolio) | [CV](/portfolio/cv/) | [Projects](/portfolio/projects/)
+# [Home]({{ "/" | relative_url }}) | [CV]({{ "/cv/" | relative_url }}) | [Projects]({{ "/projects/" | relative_url }})

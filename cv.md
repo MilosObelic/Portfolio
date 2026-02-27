@@ -3,7 +3,7 @@ layout: default
 title: Curriculum Vitae
 permalink: /cv/
 ---
-# [Home](/portfolio) | [CV](/portfolio/cv/) | [Projects](/portfolio/projects/)
+# [Home]({{ "/" | relative_url }}) | [CV]({{ "/cv/" | relative_url }}) | [Projects]({{ "/projects/" | relative_url }})
 ![Logo](/assets/img/me.png){:height="200px" width="150px"}**Stefan Crnobrnja's Portfolio**
 
 
@@ -42,5 +42,5 @@ Lager 157 Helsingborg.
   - Introduction to Software Design and Architecture - PA1460
   - Networked Systems - ET1524
 
-# [Home](/portfolio) | [CV](/portfolio/cv/) | [Projects](/portfolio/projects/)
+# [Home]({{ "/" | relative_url }}) | [CV]({{ "/cv/" | relative_url }}) | [Projects]({{ "/projects/" | relative_url }})
 
