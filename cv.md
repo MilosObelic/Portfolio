@@ -16,11 +16,11 @@ Jag heter Stefan Crnobrnja och jag älskar lära mig och urtforska olika område
 
 ## Experience/Upplevelser
 
-I have previously worked at:
-Jag har tidigare prao job på:
-Radisson Blu hotel helsingborg.
-Khai & Mui Helsingborg.
-Lager 157 Helsingborg.
+##I have previously worked at:
+##Jag har tidigare prao job på:
+##Radisson Blu hotel helsingborg.
+##Khai & Mui Helsingborg.
+##Lager 157 Helsingborg.
 
 ## Education & history
 - **Gantofta (Gantofta skola Helsingborg) 2009-2017**
