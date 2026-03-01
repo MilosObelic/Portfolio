@@ -23,6 +23,8 @@ Khai & Mui Helsingborg.
 Lager 157 Helsingborg.
 
 ## Education & history
+- **Gantofta (Gantofta skola Helsingborg) 2009-2017**
+    - Favourite subject: SO/sports - SO/idrott
 - **PeterSven (PeterSvenskolan 1 Helsingborg) 2017-2020**
     - Favourite subject: History/sports - Historia/idrott
 - **LBS (LBS Kreativa Gymnasiet Helsingborg) 2020-2023** 
