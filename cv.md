@@ -29,8 +29,7 @@ Lager 157 Helsingborg.
     - Favourite subject: History/sports - Historia/idrott
 - **LBS (LBS Kreativa Gymnasiet Helsingborg) 2020-2023** 
     - Favourite subjects: English/C# - Engelska/C# 
-
-- **BTH (Blekinge Institute of Technology) 2023-2026**
+- **BTH (Blekinge Institute of Technology) 2023-**
 ![bthpin](/assets/img/BTHpin.png){:height="400" width="600"}
 
     - Favourite subjects: C++ Algorithms and Data Structures, Mathematics, Python, Database
