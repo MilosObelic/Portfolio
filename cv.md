@@ -28,7 +28,7 @@ Lager 157 Helsingborg.
 - **PeterSven (PeterSvenskolan 1 Helsingborg) 2017-2020**
     - Favourite subject: History/sports - Historia/idrott
 - **LBS (LBS Kreativa Gymnasiet Helsingborg) 2020-2023** 
-    - Favourite subjects: English/C# and Any programing language - engelska/C# och vilket programmeringsspråk som helst
+    - Favourite subjects: English/C# - Engelska/C# 
 
 - **BTH (Blekinge Institute of Technology) 2023-2026**
 ![bthpin](/assets/img/BTHpin.png){:height="400" width="600"}
