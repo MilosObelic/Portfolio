@@ -12,7 +12,7 @@ Hi, my name is Stefan Crnobrnja and I love learning and exploring different area
 Hej, jag heter Stefan Crnobrnja och jag älskar lära mig och urtforska olika områden.
 
 # Contact Info:
-- gmail: [stefancrnobrnja@gmail.com](mailto:stefancrnobrnja@gmail.com) <!-- This [LINK](Text) makes text clickable  -->
+- gmail: [stefanc004@gmail.com](mailto:stefanc004@gmail.com) <!-- This [LINK](Text) makes text clickable  -->
 
 
 # [Home](/) | [CV](/cv/) | [Projects](/projects/)
