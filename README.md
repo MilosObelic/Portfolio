@@ -11,18 +11,24 @@ this site replaced.
 
 ```
 website/
-├── index.html        # home: intro, profile card, about, skills, contact
-├── cv.html           # education, experience, BTH coursework
-├── projects.html     # project cards (currently: this site + placeholder)
-├── 404.html          # not-found page (wired up in the nginx config)
-├── favicon.svg       # "SC" mark (primary icon)
-├── favicon.ico       # "SC" mark (legacy fallback)
-├── DEPLOY.md         # Raspberry Pi hosting guide
+├── index.html            # home: intro, profile card, about, skills, contact
+├── cv.html               # education, experience, BTH coursework (printable)
+├── projects.html         # project cards (currently: this site + placeholder)
+├── 404.html              # not-found page (nginx + GitHub Pages both use it)
+├── favicon.svg           # "SC" mark (primary icon)
+├── favicon.ico           # "SC" mark (legacy fallback)
+├── apple-touch-icon.png  # "SC" mark (iOS home screen)
+├── robots.txt            # allow all + sitemap pointer
+├── sitemap.xml           # page list for search engines
+├── DEPLOY.md             # Raspberry Pi hosting guide
 └── assets/
-    ├── css/style.css # all styling, CSS variables at the top
-    ├── js/main.js    # language toggle + footer year
-    └── img/          # images (site-thumb.svg)
+    ├── css/style.css     # all styling (incl. print stylesheet), variables at top
+    ├── js/main.js        # language toggle, footer year, print button
+    └── img/              # site-thumb.svg, og-image.png (link previews)
 ```
+
+The CV page has a "Print / Save as PDF" button — the print stylesheet turns the
+site into a clean light-on-white document automatically.
 
 ## Editing content
 
