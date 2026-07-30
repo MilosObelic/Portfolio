@@ -1,36 +1,46 @@
-# Not the github pages custom domain repo. Go to MilosObelic.github.io repo for that
+# Stefan Crnobrnja — stefanc.website
 
-**Link to web version of this repo**
-- [https://milosobelic.github.io/portfolio/](https://milosobelic.github.io/portfolio/)
+Fully self-owned personal site: hand-written HTML/CSS/JS, **no** frameworks,
+build steps, CDNs, external fonts or trackers. Designed to be self-hosted on a
+Raspberry Pi 4B — see [DEPLOY.md](DEPLOY.md).
 
-This repo is for a portfolio to store your CV, projects and other stuff you might want to add.
-The code as is can be forked or cloned and copied to implement your own CV, programming knowledge or anything you like.
-### Total time effort: 30min
-### Requirements:
-- Code editor (VS code works great)
-- Basic programming knowledge to edit a markdown (.md) file
+All content, images and icons are original — nothing remains from the template
+this site replaced.
 
-## How to Clone, Edit, and Publish
+## Structure
 
-**Clone the Repository in terminal:**
-1. Open CMD or a terminal.
-- --Keep in mind that the repo will be cloned in whatever directory you are currently in--
-2. git clone https://github.com/MilosObelic/portfolio.git
-3. cd portfolio.git
-4. code .
-- --This opens the current directory with your chosen code editor--
+```
+website/
+├── index.html        # home: intro, profile card, about, skills, contact
+├── cv.html           # education, experience, BTH coursework
+├── projects.html     # project cards (currently: this site + placeholder)
+├── 404.html          # not-found page (wired up in the nginx config)
+├── favicon.svg       # "SC" mark (primary icon)
+├── favicon.ico       # "SC" mark (legacy fallback)
+├── DEPLOY.md         # Raspberry Pi hosting guide
+└── assets/
+    ├── css/style.css # all styling, CSS variables at the top
+    ├── js/main.js    # language toggle + footer year
+    └── img/          # images (site-thumb.svg)
+```
 
-**Clone the repository by downloading the files manually:**
-- go to [https://milosobelic.github.io/portfolio/cv/](https://milosobelic.github.io/portfolio/cv/)
-- That link is the web version of this repo.
-- Press "Download .zip" and the entire folder should download. 
-- Unzip it with Winrar or 7zip. 
-5. edit the code as you wish, correct syntax for adding more pictures or pages can be deduced by seeing the existing code.
-6. git commit -m “Initial commit msg”
-- --If you are not logged in with github from your terminal, just publish the folder manually after making a new public repository on github.com with the name "portfolio"--
-![image](https://github.com/MilosObelic/portfolio/assets/106628617/f64d2203-2afe-4cd4-88b0-891895cf35cf)
-*Lastly:*
-Go to your repo that sould be named portfolio, go to settings then pages, choose to deploy from branch, Branch MAIN / ROOT and press save.
-**Done!**
-Now you should have your own portfolio website!
-Mention my name somewhere in your project if ive helped you make a easy portfolio website! :) Cheers!
+## Editing content
+
+- **Two languages:** every translatable text exists twice, side by side:
+
+  ```html
+  <span class="en">English text</span><span class="sv">Svensk text</span>
+  ```
+
+  The EN/SV buttons in the nav switch between them (choice is remembered in
+  the browser via localStorage; first visit follows the browser language).
+
+- **Colors/spacing:** change the CSS variables at the top of
+  `assets/css/style.css` (`--accent`, `--bg`, etc.) to re-theme the whole site.
+
+- **Adding a project:** copy the `<article class="proj-card">…</article>` block
+  in `projects.html`, swap the image, title, texts and chips. Put a screenshot
+  in `assets/img/` (16:9 crops look best).
+
+- **Testing locally:** just open `index.html` in a browser, or run
+  `python -m http.server` inside this folder and visit `http://localhost:8000`.
