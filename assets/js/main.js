@@ -30,6 +30,15 @@
     });
   });
 
+  /* ---------- email links ----------
+     The address is never written out in the HTML (it reads "contact [at] ...")
+     and is only assembled here, which keeps simple address scrapers away. */
+  document.querySelectorAll("[data-email-user]").forEach(function (el) {
+    var addr = el.getAttribute("data-email-user") + "@" + el.getAttribute("data-email-domain");
+    el.textContent = addr;
+    el.setAttribute("href", "mailto:" + addr);
+  });
+
   /* ---------- footer year ---------- */
   var year = document.getElementById("year");
   if (year) year.textContent = String(new Date().getFullYear());

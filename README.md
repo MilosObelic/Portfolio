@@ -1,8 +1,8 @@
 # Stefan Crnobrnja — stefanc.website
 
 Fully self-owned personal site: hand-written HTML/CSS/JS, **no** frameworks,
-build steps, CDNs, external fonts or trackers. Designed to be self-hosted on a
-Raspberry Pi 4B — see [DEPLOY.md](DEPLOY.md).
+build steps, CDNs, external fonts or trackers. Plain static files, so any web
+server can host it.
 
 All content, images and icons are original — nothing remains from the template
 this site replaced.
@@ -20,7 +20,6 @@ website/
 ├── apple-touch-icon.png  # "SC" mark (iOS home screen)
 ├── robots.txt            # allow all + sitemap pointer
 ├── sitemap.xml           # page list for search engines
-├── DEPLOY.md             # Raspberry Pi hosting guide
 └── assets/
     ├── css/style.css     # all styling (incl. print stylesheet), variables at top
     ├── js/main.js        # language toggle, footer year, print button

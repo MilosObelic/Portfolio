@@ -229,6 +229,7 @@ h2.sec-title { font-size: clamp(22px, 3vw, 28px); font-weight: 650; letter-spaci
 .page-head h1 { font-size: clamp(30px, 4.4vw, 42px); font-weight: 700; letter-spacing: -0.025em; }
 .page-head .sub { color: var(--muted); margin-top: 12px; max-width: 62ch; }
 .page-head .btn-row { margin-top: 22px; }
+.print-only { display: none; }
 
 /* centered variant (404) */
 .center-head { text-align: center; padding-top: 110px; }
@@ -344,6 +345,9 @@ footer .host .ok { color: var(--green); }
   }
   body { background: #fff; background-image: none; font-size: 12.5px; }
   .nav, .btn-row, .skip, footer { display: none; }
+  .print-only { display: block; }
+  .print-contact { color: var(--muted); font-size: 12px; padding-bottom: 10px; margin-bottom: 14px; border-bottom: 1px solid var(--border); }
+  .print-contact strong { display: block; color: var(--text); font-size: 20px; letter-spacing: -0.01em; }
   section, .hero, .page-head { padding: 16px 0; }
   .hero-grid, .about-grid { gap: 20px; }
   .profile-card, .contact-card { box-shadow: none; }

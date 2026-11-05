@@ -2,6 +2,8 @@
 <html lang="en" data-lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="CV of Stefan Crnobrnja — education, experience and coursework. / Stefan Crnobrnjas CV — utbildning, erfarenhet och kurser.">
   <meta name="author" content="Stefan Crnobrnja">
@@ -44,6 +46,13 @@
 
     <header class="page-head">
       <div class="wrap">
+        <!-- shown only when printed / saved as PDF, so the CV carries name + contact -->
+        <div class="print-only print-contact">
+          <strong>Stefan Crnobrnja</strong>
+          Helsingborg / Karlskrona, <span class="en">Sweden</span><span class="sv">Sverige</span>
+          · www.stefanc.website ·
+          <a href="#main" data-email-user="contact" data-email-domain="stefanc.website">contact [at] stefanc.website</a>
+        </div>
         <h1>Curriculum Vitae</h1>
         <p class="sub">
           <span class="en">Education, experience and coursework. References available on request.</span>
@@ -93,18 +102,6 @@
             </p>
             <div class="chips"><span class="chip">C#</span></div>
           </div>
-
-          <div class="t-item">
-            <div class="t-when">2017 — 2020</div>
-            <h3>PeterSvenskolan 1, Helsingborg</h3>
-            <div class="t-where"><span class="en">Compulsory school, grades 7–9</span><span class="sv">Grundskola, åk 7–9</span></div>
-          </div>
-
-          <div class="t-item">
-            <div class="t-when">2009 — 2017</div>
-            <h3>Gantofta skola, Helsingborg</h3>
-            <div class="t-where"><span class="en">Compulsory school</span><span class="sv">Grundskola</span></div>
-          </div>
         </div>
       </div>
     </section>
@@ -118,6 +115,22 @@
         </div>
 
         <div class="timeline">
+          <div class="t-item">
+            <div class="t-when"><span class="en">14 Sep 2026 — present</span><span class="sv">14 sep. 2026 — nu</span></div>
+            <h3>Jula, Karlskrona</h3>
+            <div class="t-where"><span class="en">Store associate</span><span class="sv">Varuhusmedarbetare</span></div>
+            <p>
+              <span class="en">Swedish family-owned Nordic DIY chain — tools, home, garden and leisure.
+              I help and advise customers in the store, work the checkout, handle returns, restock
+              shelves and build campaign and seasonal displays, working shifts as part of the store
+              team.</span>
+              <span class="sv">Svensk familjeägd nordisk varuhuskedja inom verktyg, hem, trädgård och
+              fritid. Jag hjälper och ger råd till kunder i varuhuset, sköter kassan, hanterar returer,
+              fyller på hyllorna och bygger upp kampanj- och säsongsexponeringar, i skift tillsammans
+              med varuhusets arbetslag.</span>
+            </p>
+          </div>
+
           <div class="t-item">
             <div class="t-when"><span class="en">15 Jun — 9 Aug 2026</span><span class="sv">15 juni — 9 aug. 2026</span></div>
             <h3><span class="en">Mölleberg residential care home — Karlskrona municipality</span><span class="sv">Möllebergs omvårdnadsboende — Karlskrona kommun</span></h3>
@@ -231,8 +244,8 @@
 
   <footer>
     <div class="foot-inner">
-      <span>© <span id="year">2026</span> Stefan Crnobrnja · Helsingborg, <span class="en">Sweden</span><span class="sv">Sverige</span></span>
-      <span class="host"><span class="ok">●</span> <span class="en">Designed for full self-hosting — no trackers, no third-party services</span><span class="sv">Designad för fullständig självhosting — inga trackers, inga tredjepartstjänster</span></span>
+      <span>© <span id="year">2026</span> Stefan Crnobrnja · Helsingborg / Karlskrona, <span class="en">Sweden</span><span class="sv">Sverige</span></span>
+      <span class="host"><span class="ok">●</span> <span class="en">Designed for full self-hosting — no trackers, cookies or third-party scripts</span><span class="sv">Designad för fullständig självhosting — inga trackers, cookies eller tredjepartsskript</span></span>
     </div>
   </footer>
 

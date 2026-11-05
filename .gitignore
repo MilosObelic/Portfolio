@@ -1,0 +1,22 @@
+# Never publish anything but the site itself.
+# Private notes (hosting guide etc.) live in F:\cv\notes, outside this folder.
+DEPLOY.md
+notes/
+private/
+drafts/
+.claude/
+.vscode/
+.idea/
+.env
+*.log
+*.bak
+*.tmp
+*.zip
+*.pdf
+*.doc
+*.docx
+*.odt
+*.xlsx
+Thumbs.db
+desktop.ini
+.DS_Store
